@@ -394,7 +394,7 @@ Usage
 
 ```c++
 void swap (T& a, T& b);
-void iter_swap (ForwardIterator1 a, ForwardIterator2 b);
+void iter_swap (ForwardIterator1 a, ForwardIterator2 b);       // *a = value, like pointer
 ```
 
 `iter_swap` example
