@@ -396,7 +396,7 @@ Usage
 void make_heap (RandomAccessIterator first, RandomAccessIterator last, Compare comp);
 void pop_heap (RandomAccessIterator first, RandomAccessIterator last, Compare comp);
 void push_heap (RandomAccessIterator first, RandomAccessIterator last, Compare comp);
-void sort_heap (RandomAccessIterator first, RandomAccessIterator last); Compare comp);
+void sort_heap (RandomAccessIterator first, RandomAccessIterator last, Compare comp);
 ```
 
 #### 1.3.6 Sort
